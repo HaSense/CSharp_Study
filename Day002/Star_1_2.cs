@@ -32,7 +32,36 @@ namespace StarApp
                 //for()
                 Console.WriteLine();
             }
+Console.WriteLine();
+            for(int i=0; i<5; i++)
+            {
+                for(int j=(5-i-1); j>0; j--)
+                {
+                    Console.Write(" ");
+                }
+                for(int k=0; k<=i; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
 
+            Console.WriteLine();
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int k = 0; k < i; k++)
+                {
+                    Console.Write(" ");
+                }
+
+                for (int j = (5 - i - 1); j >=0; j--)
+                {
+                    Console.Write("*");
+                }
+                
+                Console.WriteLine();
+            }
         }
     }
 }
