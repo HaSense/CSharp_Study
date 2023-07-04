@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPApp013
 {
+    //실험클래스
     class MyClass
     {
         public int MyField1;
