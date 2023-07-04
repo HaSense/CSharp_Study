@@ -32,7 +32,7 @@ namespace OOPApp013
             source.MyField2 = 20;
 
             //객체생성? 일반적으로 new를 통해서
-            //MyClass target = source; //얇은복사(Shallow Copy)
+            //MyClass target = source; //얕은복사(Shallow Copy)
             MyClass target = source.DeepCopy(); //깊은복사
             target.MyField2 = 30;
 
