@@ -52,7 +52,7 @@ namespace FactorialApp01
             Console.WriteLine($"재귀적 방법을 이용한 {number}의 팩토리얼은 {fact}입니다.");
             int[] dp = new int[number + 1];
             fact = calculator.FactorialDynamic(number, dp);
-            Console.WriteLine($"재귀적 방법을 이용한 {number}의 팩토리얼은 {fact}입니다.");
+            Console.WriteLine($"다이나믹 방법을 이용한 {number}의 팩토리얼은 {fact}입니다.");
 
         }
     }
