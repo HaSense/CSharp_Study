@@ -1,0 +1,98 @@
+CREATE TABLE cities (
+  city_id INT PRIMARY KEY,
+  city_name VARCHAR2(255),
+  country_id INT,
+  population INT
+);
+
+CREATE TABLE countries (
+  country_id INT PRIMARY KEY,
+  country_name VARCHAR2(255),
+  continent VARCHAR2(255),
+  population INT
+);
+
+INSERT INTO cities VALUES (1, 'Shanghai', 1, 24256800);
+INSERT INTO cities VALUES (2, 'Beijing', 1, 21516000);
+INSERT INTO cities VALUES (3, 'Delhi', 2, 30291000);
+INSERT INTO cities VALUES (4, 'Mumbai', 2, 20411274);
+INSERT INTO cities VALUES (5, 'New York City', 3, 8623000);
+INSERT INTO cities VALUES (6, 'Los Angeles', 3, 3995000);
+INSERT INTO cities VALUES (7, 'Jakarta', 4, 10500000);
+INSERT INTO cities VALUES (8, 'Surabaya', 4, 2750000);
+INSERT INTO cities VALUES (9, 'Karachi', 5, 15741000);
+INSERT INTO cities VALUES (10, 'Lahore', 5, 11126000);
+INSERT INTO cities VALUES (11, 'São Paulo', 6, 12325232);
+INSERT INTO cities VALUES (12, 'Rio de Janeiro', 6, 6476631);
+INSERT INTO cities VALUES (13, 'Lagos', 7, 21000000);
+INSERT INTO cities VALUES (14, 'Kano', 7, 3242000);
+INSERT INTO cities VALUES (15, 'Dhaka', 8, 8906000);
+INSERT INTO cities VALUES (16, 'Chittagong', 8, 3920222);
+INSERT INTO cities VALUES (17, 'Moscow', 9, 12380664);
+INSERT INTO cities VALUES (18, 'Saint Petersburg', 9, 5351935);
+INSERT INTO cities VALUES (19, 'Mexico City', 10, 8915000);
+INSERT INTO cities VALUES (20, 'Guadalajara', 10, 1495000);
+INSERT INTO cities VALUES (21, 'Tokyo', 11, 9273000);
+INSERT INTO cities VALUES (22, 'Yokohama', 11, 3724844);
+INSERT INTO cities VALUES (23, 'Addis Ababa', 12, 3040740);
+INSERT INTO cities VALUES (24, 'Dire Dawa', 12, 480000);
+INSERT INTO cities VALUES (25, 'Manila', 13, 1780148);
+INSERT INTO cities VALUES (26, 'Quezon City', 13, 2931410);
+INSERT INTO cities VALUES (27, 'Cairo', 14, 9500000);
+INSERT INTO cities VALUES (28, 'Alexandria', 14, 5115000);
+INSERT INTO cities VALUES (29, 'Hanoi', 15, 7433000);
+INSERT INTO cities VALUES (30, 'Ho Chi Minh City', 15, 8424000);
+
+
+
+INSERT INTO countries VALUES (1, 'China', 'Asia', 1393000000);
+INSERT INTO countries VALUES (2, 'India', 'Asia', 1380000000);
+INSERT INTO countries VALUES (3, 'United States', 'North America', 331000000);
+INSERT INTO countries VALUES (4, 'Indonesia', 'Asia', 273000000);
+INSERT INTO countries VALUES (5, 'Pakistan', 'Asia', 225000000);
+INSERT INTO countries VALUES (6, 'Brazil', 'South America', 213000000);
+INSERT INTO countries VALUES (7, 'Nigeria', 'Africa', 211000000);
+INSERT INTO countries VALUES (8, 'Bangladesh', 'Asia', 166000000);
+INSERT INTO countries VALUES (9, 'Russia', 'Europe', 145900000);
+INSERT INTO countries VALUES (10, 'Mexico', 'North America', 130000000);
+INSERT INTO countries VALUES (11, 'Japan', 'Asia', 125500000);
+INSERT INTO countries VALUES (12, 'Ethiopia', 'Africa', 117000000);
+INSERT INTO countries VALUES (13, 'Philippines', 'Asia', 113000000);
+INSERT INTO countries VALUES (14, 'Egypt', 'Africa', 104000000);
+INSERT INTO countries VALUES (15, 'Vietnam', 'Asia', 98100000);
+INSERT INTO countries VALUES (16, 'DR Congo', 'Africa', 90000000);
+INSERT INTO countries VALUES (17, 'Turkey', 'Europe', 83000000);
+INSERT INTO countries VALUES (18, 'Iran', 'Asia', 84000000);
+INSERT INTO countries VALUES (19, 'Germany', 'Europe', 83000000);
+INSERT INTO countries VALUES (20, 'Thailand', 'Asia', 70000000);
+INSERT INTO countries VALUES (21, 'United Kingdom', 'Europe', 67000000);
+INSERT INTO countries VALUES (22, 'France', 'Europe', 65000000);
+INSERT INTO countries VALUES (23, 'Italy', 'Europe', 60000000);
+INSERT INTO countries VALUES (24, 'South Africa', 'Africa', 60000000);
+INSERT INTO countries VALUES (25, 'Tanzania', 'Africa', 60000000);
+INSERT INTO countries VALUES (26, 'Myanmar', 'Asia', 55000000);
+INSERT INTO countries VALUES (27, 'South Korea', 'Asia', 52000000);
+INSERT INTO countries VALUES (28, 'Colombia', 'South America', 51000000);
+INSERT INTO countries VALUES (29, 'Kenya', 'Africa', 54000000);
+INSERT INTO countries VALUES (30, 'Spain', 'Europe', 47000000);
+INSERT INTO countries VALUES (31, 'Argentina', 'South America', 45000000);
+INSERT INTO countries VALUES (32, 'Algeria', 'Africa', 44000000);
+INSERT INTO countries VALUES (33, 'Sudan', 'Africa', 43000000);
+INSERT INTO countries VALUES (34, 'Ukraine', 'Europe', 44000000);
+INSERT INTO countries VALUES (35, 'Uganda', 'Africa', 45000000);
+INSERT INTO countries VALUES (36, 'Iraq', 'Asia', 40000000);
+INSERT INTO countries VALUES (37, 'Afghanistan', 'Asia', 39000000);
+INSERT INTO countries VALUES (38, 'Poland', 'Europe', 38000000);
+INSERT INTO countries VALUES (39, 'Canada', 'North America', 38000000);
+INSERT INTO countries VALUES (40, 'Morocco', 'Africa', 36000000);
+INSERT INTO countries VALUES (41, 'Saudi Arabia', 'Asia', 35000000);
+INSERT INTO countries VALUES (42, 'Uzbekistan', 'Asia', 34000000);
+INSERT INTO countries VALUES (43, 'Peru', 'South America', 33000000);
+INSERT INTO countries VALUES (44, 'Angola', 'Africa', 33000000);
+INSERT INTO countries VALUES (45, 'Malaysia', 'Asia', 32000000);
+INSERT INTO countries VALUES (46, 'Mozambique', 'Africa', 31000000);
+INSERT INTO countries VALUES (47, 'Ghana', 'Africa', 31000000);
+INSERT INTO countries VALUES (48, 'Yemen', 'Asia', 30000000);
+INSERT INTO countries VALUES (49, 'Nepal', 'Asia', 30000000);
+INSERT INTO countries VALUES (50, 'Venezuela', 'South America', 28000000);
+
