@@ -1,30 +1,4 @@
 [OPENBOOK TEST]
-1. 오라클 처음 접속 후 hr 계정을 열려면 어떻게 해야 하나요?
-   1-1 관리자 계정 접속 쿼리 : (   CONN SYSTEM                     )
-   1-2 연습용 계정 열기 쿼리 : (   ALTER USER hr ACCOUNT UNLOCK  )
-2. 오라클 처음 접속 후 hr 계정의 비밀번호를 hr로 재지정 하려면 어떻게 해야 하나요?
-   비밀번호 변경 쿼리 : (   ATLTER USER hr IDENTIFIED BY hr )
-3. (p125 연습문제 - Q1) EMP 테이블을 사용하여 사원 이름(ENAME)이 S로 끝나는 사원 데이터를 모두 출력
-하는 SQL문을 작성해 보세요.
-SELECT *
-  FROM EMP
- WHERE ENAME LIKE '%S';
-
-4. (p125 연습문제 - Q2) EMP 테이블을 사용하여 30번 부서에서 근무하고 있는 사원 중에 직책이 SALESMAN인
-  사원의 사원번호, 이름, 직책, 급여, 부서번호를 출력하는 SQL문을 작성해 보세요.
-SELECT EMPNO, ENAME, JOB, SAL, DEPTNO
-  FROM EMP 
- WHERE DEPTNO = 30
-   AND JOB = 'SALESMAN';
-
-5. (p125 연습문제 - Q3)
--- 집합연산자를 사용하지 않은 방식
-SELECT EMPNO, ENAME, JOB, SAL, DEPTNO
-  FROM EMP
- WHERE DEPTNO IN (20, 30) 
-   AND SAL > 2000;
-
-
 [OPENBOOK TEST]
 1. 오라클 처음 접속 후 hr 계정을 열려면 어떻게 해야 하나요?
    1-1 관리자 계정 접속 쿼리 : (   CONN SYSTEM                     )
