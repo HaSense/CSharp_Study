@@ -1,5 +1,4 @@
 [OPENBOOK TEST]
-[OPENBOOK TEST]
 1. 오라클 처음 접속 후 hr 계정을 열려면 어떻게 해야 하나요?
    1-1 관리자 계정 접속 쿼리 : (   CONN SYSTEM                     )
    1-2 연습용 계정 열기 쿼리 : (   ALTER USER hr ACCOUNT UNLOCK  )
@@ -24,10 +23,6 @@ SELECT EMPNO, ENAME, JOB, SAL, DEPTNO
   FROM EMP
  WHERE DEPTNO IN (20, 30) 
    AND SAL > 2000;
-
-
-
-
 
 -- 집합연산자를 사용한 방식
 SELECT EMPNO, ENAME, JOB, SAL, DEPTNO
